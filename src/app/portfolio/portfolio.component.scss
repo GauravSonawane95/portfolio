@@ -13,37 +13,33 @@ width: 90%;
     
    
 }
-// .c1{
-//     background-image: url('/assets/earth.png');
-//     background-size: 38rem;
-//     background-position-x: 45rem;
-//     background-position-y:-10rem ;
+.c1{
+   
+    min-height: 20rem ;
     
-// }
-// .c2{
-//     background-image: url('/assets/greenpl.png');
-//     background-size: 33rem;
-//     background-position-x: 50rem;
-//     background-position-y:-13rem ;
-// }
+    
+}
+.c2{
+    background-image: url('/assets/greenpl.png');
+    background-size: 33rem;
+    background-position-x: 10rem;
+    background-position-y:-13rem ;
+}
 // .c3{
-//     background-image: url('/assets/brown.png');
-//     background-size: 27rem;
-//     background-position-x: 53rem;
-//     background-position-y:-5rem ;
+   
    
 // }
-// .c4{
-//     background-image: url('/assets/vio.png');
-//     background-size: 27rem;
-//     background-position-x: 53rem;
-//     background-position-y:-10rem ;
+.c4{
+    background-image: url('/assets/earth.png');
+    background-size: 50rem;
+    background-position-x: 3rem;
+    background-position-y:-10rem ;
    
-// }
+}
 .flex{
     display:grid;
     margin: auto;
-   grid-template-columns: auto;
+   grid-template-columns: auto auto;
 }
 .cardS {
     
