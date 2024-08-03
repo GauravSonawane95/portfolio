@@ -1,0 +1,42 @@
+<div class="flex row">
+    <div class="card c1 col-lg-6">
+        <h4>Introduction</h4>
+        <p class="scroll">"Frontend Developer with expertise in JavaScript, TypeScript, HTML5, CSS3, Bootstrap, Angular Material, and Angular framework. Creating seamless web experiences.Seeking opportunities to innovate and excel in a collaborative environment.An MCA graduate seeking opportunities to apply technical expertise and contribute to a progressive organization's success. Committed to continuous learning and professional growth."
+        </p>
+    </div>
+    <div class="card c2 col-lg-6">
+        <h4 class="mt-2">Education</h4>
+        <p>MCA graduate from D Y Patil Institute of MCA and Management with a strong foundation in computer applications and technology.</p>
+        <h5>Master of Computer Application</h5>
+        <p>D Y Patil Institute of MCA and Management</p>
+        <p>Akurdi, Pune, Maharashtra</p>
+        <h5>Bachelor of Computer Application</h5>
+        <p>KCE's Moolji Jetha College</p>
+        <p>Jalgaon, Maharashtra</p>
+    </div>
+    <div class="card mt-1 c3 col-lg-6">
+        <h4>Skills</h4>
+        <p class="scroll">• Programming Languages : TypeScript, JavaScript <br>
+            • Frameworks : Angular, Bootstrap <br>
+            • Web Technology : Angular, HTML5, JavaScript, CSS, Flexbox, Angular CLI, Angular Material, Photoshop Illustrator.<br>
+            • Debugging Tools : Google Chrome Web Debugger Development Tools <br>
+            • IDE/Editors : Visual Studio Code <br>
+            • Proficient in Angular, TypeScript, JavaScript, HTML, CSS, and Bootstrap <br>
+            • Rest API and HTTPs <br>
+            • Experience in developing responsive and mobile-friendly web applications <br>
+            • Strong understanding of software development principles and best practices <br>
+            • Excellent problem-solving and debugging skills <br>
+            • Ability to work collaboratively in a team environment.
+        </p>
+   
+        <div class="box ">
+            <div class="skills-container " >
+                <div class="cardS card MagicScroll"  data-options="step: 0; speed: 4000" *ngFor="let item of skills">
+                    <h3 class="title">{{ item.name }}</h3><br>
+                    <img class="card-img-top skill-img" [src]="item.img" alt="{{item.name}}">
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+

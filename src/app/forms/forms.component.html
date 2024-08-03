@@ -1,0 +1,32 @@
+<div class="card bg-dark text-white">
+    <h6>TeMPLET FOMS</h6>
+    <form #msgForm="ngForm" (ngSubmit)="onSubmit(msgForm)">
+        <ul>
+            <li><label for="fname">First Name</label>
+                <input type="text" class="input" id="fname" name="fname" pattern="[a-zA-z]{30}" ngModel>
+            </li>
+            <li><label for="lname">Last Name</label>
+                <input type="text" class="input" id="lname" name="lname" pattern="[a-zA-z]{30}" ngModel>
+            </li>
+            <li><label for="msg">Message</label>
+                <input type="text" class="input" id="msg" name="msg" ngModel>
+            </li>
+            <button type="submit" class="btn btn-primary mt-4">Send</button>
+        </ul>
+    </form>
+</div>
+<div class="card bg-dark text-white mt-4">
+    <h6>ReACTIVE FOMS</h6>
+    <form [formGroup]="formdata" (ngSubmit)="onReactive()">
+        <div formArrayName="items" >
+        <ul *ngFor="let item of itemsFormArray.controls; let i=index"  [formGroupName]="i">
+            <li><label for="rfname">fname</label><input id="rfname" formControlName="rfname" type="text"></li>
+            <li><label for="rlname">lname</label><input id="rlname" formControlName="rlname" type="text"></li>
+            <li><label for="rmsg">msg</label><input id="rmsg" formControlName="rmsg" type="text"></li>
+            <button type="submit" class="btn bg-warning ">submit</button>
+            <button type="button" class="btn bg-warning m-2" (click)="removeItem(i)">Remove Item</button>
+            <button type="button" class="btn bg-warning " (click)="addItem()">Add Item</button>
+        </ul></div>
+    </form>
+</div>
+

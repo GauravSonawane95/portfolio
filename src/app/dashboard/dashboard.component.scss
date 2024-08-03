@@ -1,0 +1,67 @@
+
+
+.card{
+    max-width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-left: 14rem;
+    color: white;
+    background-blend-mode: lighten;
+    background-color: transparent;
+   background-image: url('https://www.freeiconspng.com/uploads/moon-png-no-background-15.png');
+   background-size: 500px 500px !important;
+   background-repeat: no-repeat;
+   background-position-x: 110%;
+   background-position-y: -140px;
+}
+i{
+    color: white;
+   margin-right: 10px;
+   transition: all ease-in-out 0.3s;
+}
+i:hover{
+    color: rgb(230, 54, 89);
+    text-shadow: 0px 0px 1.5rem rgb(230, 54, 89);
+}
+.card div{
+    margin-top: auto;
+    height: 70%;
+   
+}
+h1{
+    background-image: linear-gradient(to right,white, transparent);
+    color: transparent;
+    background-clip: text;
+    max-width: 17rem;
+    font-size: 3.5rem;
+
+}
+h6{
+    background-image: linear-gradient(to right,cyan,rgb(230, 54, 89));
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.imgmoon{
+    height: 350px;
+    width: 350px;
+   position: absolute;
+   
+    overflow: hidden;
+};
+
+//Mobile
+@media(min-width: 480px) and (max-width:768px){
+   
+    .card{
+      background-position-x: 18rem;
+     
+    
+      margin: auto;
+      margin-left: 2rem;
+    }
+  }
+
+
+
+

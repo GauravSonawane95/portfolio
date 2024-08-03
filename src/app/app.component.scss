@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+.flex{
+    display:flex;
+    list-style-type: none;
+}
+.main{
+    position:sticky;
+    
+   
+}
+a{
+    color:aliceblue;
+    margin: 0.8rem;
+    
+    text-decoration: none;
+    transition:all ease-in-out 1s;  
+}
+
+a:hover{
+    border-bottom: 0.1rem solid cyan;
+    color: rgb(219, 236, 236);
+    
+   
+}

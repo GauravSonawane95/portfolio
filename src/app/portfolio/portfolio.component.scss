@@ -1,0 +1,89 @@
+.card{
+    border: 2px solid transparent;
+width: 90%; 
+    margin:auto;
+    height: auto;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    overflow: auto;
+    padding: 1rem;
+    color: aliceblue;
+    
+   
+}
+// .c1{
+//     background-image: url('/assets/earth.png');
+//     background-size: 38rem;
+//     background-position-x: 45rem;
+//     background-position-y:-10rem ;
+    
+// }
+// .c2{
+//     background-image: url('/assets/greenpl.png');
+//     background-size: 33rem;
+//     background-position-x: 50rem;
+//     background-position-y:-13rem ;
+// }
+// .c3{
+//     background-image: url('/assets/brown.png');
+//     background-size: 27rem;
+//     background-position-x: 53rem;
+//     background-position-y:-5rem ;
+   
+// }
+// .c4{
+//     background-image: url('/assets/vio.png');
+//     background-size: 27rem;
+//     background-position-x: 53rem;
+//     background-position-y:-10rem ;
+   
+// }
+.flex{
+    display:grid;
+    margin: auto;
+   grid-template-columns: auto;
+}
+.cardS {
+    
+    width:100px;
+    margin: 10px;
+    border: none;
+    display: inline-block;
+   background-color: transparent;
+   
+    background-size: cover;
+position:relative;
+    color: #fff; 
+    overflow:hidden;
+    
+  }
+  
+  
+  
+  
+  .title {
+    color: white;
+    font-weight: 12px;
+    position: absolute;
+    left: 20px;
+   
+    top: 15px;
+    font-size: 12px;
+  }
+
+@media(min-width: 480px) and (max-width:768px){
+    
+    .flex{
+      
+       grid-template-columns:auto;
+       
+      
+    }
+}
+
+
+
+//////////////////////////////////////////
+/// 
