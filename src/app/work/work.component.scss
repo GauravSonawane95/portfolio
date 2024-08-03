@@ -1,0 +1,21 @@
+.content{
+    width:60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+iframe{
+    margin-left: 3rem;
+    
+min-height:20rem;
+min-width: 30rem;
+max-height:30rem;
+max-width: 10rem;
+border-radius: 25px;
+background-size: 30%;
+}
+h6{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
