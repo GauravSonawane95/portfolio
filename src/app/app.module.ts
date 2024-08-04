@@ -9,13 +9,15 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { WorkComponent } from './work/work.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     FormsComponent,
     PortfolioComponent,
-    WorkComponent
+    WorkComponent,
+    ContactComponent
  
   ],
   imports: [

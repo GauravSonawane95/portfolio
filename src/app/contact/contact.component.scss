@@ -1,0 +1,42 @@
+.content{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 90%;
+
+    margin: auto;
+}
+.card{
+    background-color: transparent;
+    color: white;
+    background-repeat: no-repeat;
+    
+}
+.c3{
+    background-image: url('/assets/vio.png');
+    background-size: 37rem;
+    background-position-x: 49rem;
+    background-position-y:-13rem ;
+}
+.center a{
+    color: white;
+   margin-right: 10px;
+   font-size: 1.5rem;
+   text-decoration: none;
+   transition: all ease-in-out 0.3s;
+   
+}
+.center a:hover{
+    color: rgb(186, 234, 253);
+    text-shadow: 0px 0px 1.5rem rgb(0, 255, 170);
+}
+.center{
+    text-align: center;
+}
+@media (min-width:480px) and (max-width:768px) {
+    .c3{
+       
+        background-size: 35rem;
+        background-position-x: 11rem;
+        background-position-y:-7rem ;
+    }
+}
